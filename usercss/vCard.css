@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{padding:0; margin:0; box-sizing:border-box;}
+.abcd{color:#000;}
+.vcard-pg{font-family:Roboto !important; font-size:14px; background:url(../image/bgBg.jpg) no-repeat; background-size:100% 100%; background-attachment:fixed;position: relative;}
+.vcard-pg:after {position: absolute;top: 0;right: 0;left: 0;width:100%;height:100%;background: rgb(0 0 0 / 50%);content:'';}
+.vcard-pg .nav-pills .nav-link.active, .vcard-pg .nav-pills .show>.nav-link { color: var(--bs-nav-pills-link-active-color); background-color: #323232;}
+.vcard-pg .copyrht {background-color: rgb(254 0 0);}
+.vcard-pg .page-wrapper{margin: 0 auto;color: #555555;text-decoration: none;max-width: 450px;text-align: center;box-shadow: 1px 2px 15px #48484833;padding-bottom:50px;position:relative;z-index: 9;}
+.vcard-pg .page-details {position: relative;margin-top: 5px;border: 2px solid;}
+.vcard-pg .form-control{font-size: 0.85rem;}
+.vcard-pg .page-details .sec-1{/* background-image: url(../image/sec-bg-img5.jpg); */background-position: top;background-size: 100% 100%;padding-left: 15px;padding-right: 15px;padding-top: 15px;}
+.vcard-pg .page-details .sec-3{/* background-image: url(../image/sec-bg-img4.jpg); */background-position: top;background-size: 100% 100%;padding-left: 15px;padding-right: 15px;padding-top: 15px;}
+#navbar2.fixed-bottom .nav-pills .nav-link.active{/*display:initial;*/background-color: #ff9410;}
+.vcard-pg .logo-sec img{height:70px; margin-top:20px;}
+#navbar2.fixed-bottom{background: rgb(254 0 0);}
+#navbar2.fixed-bottom .nav-link{color:#fff;}
+.vcard-pg .page-details, .vcard-pg #about-us, .vcard-pg #contact{border: 1px solid #ccc;}
+#navbar2.fixed-bottom .nav-pills .nav-link.active{background-color:#000;}
+.vcard-pg #home{ background: #f5f5f5; overflow: hidden; padding-top: 5px;}
+.vcard-pg .nav-link:focus, .vcard-pg .nav-link:hover{color:#fff !important;}
+.vcard-pg .logo-sec h4{font-size:20px;color:#000;position:relative;}
+.vcard-pg .logo-sec h4:after{font-size:20px;color:#000;position:absolute;content:'';width:100px;height: 1px;background: rgb(254 0 0);left:0;right:0;margin:0 auto;bottom:-10px;}
+.vcard-pg .detail-sec h4{line-height: 21px;font-size: 17px;}
+.vcard-pg .detail-sec h4 span{font-size: 13px;line-height: 13px;}
+.vcard-pg .page-details hr{width:100px;/* border:#ff9410 1px solid; */opacity: 1;}
+.vcard-pg .pic-sec img{border:5px solid #fff;border-radius: 50%;}
+.vcard-pg .sec-2 .fa{margin-right:5px;}
+.vcard-pg .sec-2{border-color:#ccc !important;}
+.vcard-pg a{font-size:14px !important;color: #fff;}
+.vcard-pg .sec-2 a{background: rgb(254 0 0);color:#fff;border-radius:20px;margin:5px;}
+.vcard-pg .sec-3 .fa{width:30px;height:30px;background: rgb(254 0 0);border-radius:50px;text-align:center;line-height:30px;}
+.vcard-pg .sec-3 .fa-map-marker{padding: 0px 10px; font-size:18px;}
+.vcard-pg .sec-3 a{color:#000;}
+ .vcard-pg .sec-3 .fa,  .vcard-pg .sec-3 .fa{color:#fff;}
+.vcard-pg .sec-4 .fa-facebook{background:#4b66a0; width: 30px; height: 30px; line-height: 30px; border-radius: 50%;}
+.vcard-pg .sec-4 .fa-twitter{background:#3cb0e3; width: 30px; height: 30px; line-height: 30px; border-radius: 50%;}
+.vcard-pg .sec-4 .fa-linkedin{background:#1586bc; width: 30px; height: 30px; line-height: 30px; border-radius: 50%;}
+.vcard-pg .sec-4 .fa-fa-whatsapp{background:#69bb66; width: 30px; height: 30px; line-height: 30px; border-radius: 50%;}
+.vcard-pg .sec-4 .btn1,.vcard-pg .sec-4 .btn1:hover{background:#69bb65;color:#fff;}
+.vcard-pg .share-buttons a:hover{color:#fff;}
+.text-justify{text-align:justify;}
+.vcard-pg .form-control:focus{border-color:#eee; box-shadow: 0 0 0 0.05rem rgb(0 0 0 / 25%);}
+.vcard-pg .send_bt{padding: 7px 15px;color: #ffffff;font-size: 14px;display: inline-block;background: rgb(254 0 0);border: 3px solid #fff;box-shadow: 0 2px 5px rgb(0 0 0 / 20%);}
+.vcard-pg #contact .close{font-size: 25px !important; position: absolute; text-decoration: none;  right: 10px; top: 10px; color: #000;cursor: pointer;}
+.vcard-pg .nav-link:focus, .vcard-pg .nav-link:hover { color: #fcfdff;}
+.vcard-pg .nav {
+    --bs-nav-link-color: #f4f6f9;}
+	.copyrht {
+   color: #fff;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.vcard-pg .fixed-bottom{padding: 0.2rem; line-height: 30px;}
+.vcard-pg #navbar2{    background: rgb(114 124 69);
+    border-top: 1px solid #000;}
+
+/* whatsapp input flag css */
+.vcard-pg .iti__flag {background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/img/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .vcard-pg .iti__flag {background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/img/flags@2x.png");}
+}
+
+.vcard-pg .iti {
+    width: 100%;
+}
+
+.vcard-pg .iti__country-name, .vcard-pg .iti__flag-box {
+    color: #555555;
+}
+/* whatsapp input flag css completed */
+.vcard-pg input[type=text], .vcard-pg input[type=tel], .vcard-pg input[type=email], .vcard-pg textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Uniform', sans-serif;
+}
+@media (max-width:767px){
+.vcard-pg .nav-pills .nav-link.active{display:block;}
+.vcard-pg, .vcard-pg a, .vcard-pg input[type=tel]{font-size: 13px !important;}
+.vcard-pg .page-details .pic-sec img{width:120px; margin:0 auto;}
+.iti-mobile .nav-fill .nav-item .nav-link{font-size: 14px;}
+.vcard-pg .sec-3 .fa-map-marker{width: 35px;}
+}
+@media (max-width:480px){
+.vcard-pg .detail-sec h4 {line-height: 15px; font-size: 14px;}
+.vcard-pg .detail-sec h4 span {font-size: 12px; line-height: 22px;}
+.vcard-pg .logo-sec h4 {font-size: 17px;}
+.vcard-pg .sec-2 a{margin: 2px;}
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=tel]{padding-left: 45px !important;padding-right: 0px !important;}
+.input-wrapper{margin-right: 5px;}
+.vcard-pg .share-buttons a {font-size: 11px !important;}
+.vcard-pg .btn{padding:0.25rem 0.50rem;}
+.vcard-pg .sec-2 a{font-size: 12px !important;}
+}
+@media (max-width:360px){
+.vcard-pg .sec-3 .fa-map-marker {width: 50px;}
+}
+.vcard-pg .rd-mr a { padding: 7px 15px;  color: #ffffff;  font-size: 14px;  display: inline-block; background: #323232;  border: 3px solid #fff; box-shadow: 0 2px 5px rgb(0 0 0 / 20%); text-decoration: none;}
+.vcard-pg .rd-mr { text-align: center;}
